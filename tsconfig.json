@@ -9,5 +9,7 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "typeRoots": ["./node_modules/@types", "./src/types"]
-  }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "prisma/seed.ts", "dist"]
 }
